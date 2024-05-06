@@ -33,23 +33,23 @@ print(iris_dataset.dtypes)
 
 '''
 
-'''
+
 # Create arrays to prepare data for plotting 
 
 seplen = iris_dataset["sepal_length"]
 seplen = seplen.to_numpy()
 
-
+'''
 plt.hist(seplen, color="darkgreen",edgecolor="black",  linestyle='--', alpha=0.5)
 plt.title("Sepal Length in cm")
 plt.xlabel('Sepal_Length_cm') 
 plt.ylabel('Count') 
 plt.show() 
-
+'''
 
 sewidt = iris_dataset["sepal_width"]
 sewidt = sewidt.to_numpy()
-
+'''
 plt.hist(sewidt, color="cornflowerblue",edgecolor="black",  linestyle='--', alpha=0.5)
 plt.title("Sepal Width in cm")
 plt.xlabel('Sepal_Width_cm') 
@@ -81,3 +81,10 @@ plt.ylabel('Count')
 plt.show() 
 
 '''
+
+plt.scatter(seplen, sewidt , marker='8', s=50,  color = "cornflowerblue", edgecolor="black")
+plt.title("Sepal Length Vs Sepal Width")
+plt.xlabel('Sepal_Length_cm') 
+plt.ylabel('Sepal_width_cm') 
+
+plt.show() 
