@@ -6,27 +6,33 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# Loading the file into python
+# Loading the file into python. The reason I used below website is that all the columnns are correctly build with names.
 
-iris_dataset = 'iris.data'
+iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
-iris_dataset = pd.read_csv("iris.data")
-
-
+'''
 # Summary of the data set
 
 print(iris_dataset)
-
 '''
-# We use this function to get information about the data types
 
+# Below function will create/open a text file called summary each time it is run. It will contain a short summary of all the variables. More info in the jupyter notebook. Seccion 1
+
+
+filename = "summary.txt"
+
+with open(filename, 'w') as f:
+    df_string = iris_dataset.describe().to_string()
+    f.write(df_string)
+
+
+# We use this function to get information about the data types
+'''
 print(iris_dataset.dtypes)
 
-# Summary of the data 
+'''
 
-print (iris_dataset.describe())
-
-
+'''
 # Create arrays to prepare data for plotting 
 
 seplen = iris_dataset["sepal_length"]
