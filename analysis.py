@@ -14,9 +14,10 @@ iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-da
 # Summary of the data set
 
 print(iris_dataset)
-'''
+
 
 # Below function will create/open a text file called summary each time it is run. It will contain a short summary of all the variables. More info in the jupyter notebook. Seccion 1
+
 
 
 filename = "summary.txt"
@@ -27,7 +28,7 @@ with open(filename, 'w') as f:
 
 
 # We use this function to get information about the data types
-'''
+
 print(iris_dataset.dtypes)
 
 '''
@@ -38,16 +39,45 @@ print(iris_dataset.dtypes)
 seplen = iris_dataset["sepal_length"]
 seplen = seplen.to_numpy()
 
+
+plt.hist(seplen, color="darkgreen",edgecolor="black",  linestyle='--', alpha=0.5)
+plt.title("Sepal Length in cm")
+plt.xlabel('Sepal_Length_cm') 
+plt.ylabel('Count') 
+plt.show() 
+
+
 sewidt = iris_dataset["sepal_width"]
 sewidt = sewidt.to_numpy()
-print(sewidt)
+
+plt.hist(sewidt, color="cornflowerblue",edgecolor="black",  linestyle='--', alpha=0.5)
+plt.title("Sepal Width in cm")
+plt.xlabel('Sepal_Width_cm') 
+plt.ylabel('Count') 
+plt.show() 
+
+
 
 peleng = iris_dataset["petal_length"]
 peleng = peleng.to_numpy()
-print(peleng)
+
+
+plt.hist(peleng, color="khaki",edgecolor="darkgreen",  linestyle='--', alpha=0.5)
+plt.title("Petal Length in cm")
+plt.xlabel('Petal_Length_cm') 
+plt.ylabel('Count') 
+plt.show() 
+
+
 
 pewidt = iris_dataset["petal_width"]
 pewidt = pewidt.to_numpy()
-print(pewidt)
-'''
 
+
+plt.hist(pewidt, color="plum",edgecolor="magenta",  linestyle='--', alpha=0.5)
+plt.title("Petal Width in cm")
+plt.xlabel('Petal_Width_cm') 
+plt.ylabel('Count') 
+plt.show() 
+
+'''
