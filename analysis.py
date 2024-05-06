@@ -1,5 +1,4 @@
-# Import libraries
-# Data frames
+
 import pandas as pd
 #Plotting
 import matplotlib.pyplot as plt
