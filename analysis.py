@@ -10,6 +10,9 @@ import numpy as np
 
 iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
+iris_dataset.info()
+
+
 '''
 # Summary of the data set
 
