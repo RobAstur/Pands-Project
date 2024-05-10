@@ -57,22 +57,23 @@ plt.ylabel('Count')
 plt.show() 
 
 
-
+'''
 peleng = iris_dataset["petal_length"]
 peleng = peleng.to_numpy()
 
-
+'''
 plt.hist(peleng, color="khaki",edgecolor="darkgreen",  linestyle='--', alpha=0.5)
 plt.title("Petal Length in cm")
 plt.xlabel('Petal_Length_cm') 
 plt.ylabel('Count') 
 plt.show() 
 
-
+'''
 
 pewidt = iris_dataset["petal_width"]
 pewidt = pewidt.to_numpy()
 
+'''
 
 plt.hist(pewidt, color="plum",edgecolor="magenta",  linestyle='--', alpha=0.5)
 plt.title("Petal Width in cm")
@@ -80,7 +81,7 @@ plt.xlabel('Petal_Width_cm')
 plt.ylabel('Count') 
 plt.show() 
 
-'''
+
 
 plt.scatter(seplen, sewidt , marker='8', s=50,  color = "cornflowerblue", edgecolor="black")
 plt.title("Sepal Length Vs Sepal Width")
@@ -88,3 +89,32 @@ plt.xlabel('Sepal_Length_cm')
 plt.ylabel('Sepal_width_cm') 
 
 plt.show() 
+
+
+
+plt.scatter(seplen, peleng , marker='8', s=50,  color = "green", edgecolor="black")
+plt.title("Sepal Length Vs Petal_Length_cm")
+plt.xlabel('Petal_Length_cm') 
+plt.ylabel('Petal_Length_cm') 
+
+plt.show() 
+
+
+
+plt.scatter(pewidt, peleng , marker='x', s=40,  color = "orange", edgecolor="black")
+plt.title("Sepal_Width Vs Petal_Length_cm")
+plt.xlabel('Sepal_width_cm') 
+plt.ylabel('Petal_Length_cm') 
+
+plt.show() 
+
+
+
+plt.scatter(peleng, pewidt, marker='x', s=40,  color = "red", edgecolor="black")
+plt.title("Petal_length Vs Petal_width_cm")
+plt.xlabel('Petal_length_cm') 
+plt.ylabel('Petal_Width_cm') 
+
+plt.show() 
+
+'''
