@@ -10,17 +10,16 @@ import numpy as np
 
 iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
-iris_dataset.info()
 
 
 '''
+iris_dataset.info()
 # Summary of the data set
 
 print(iris_dataset)
 
 
 # Below function will create/open a text file called summary each time it is run. It will contain a short summary of all the variables. More info in the jupyter notebook. Seccion 1
-
 
 
 filename = "summary.txt"
@@ -130,4 +129,3 @@ plt.ylabel('Petal_Width_cm')
 plt.show() 
 
 '''
-
