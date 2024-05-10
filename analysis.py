@@ -100,6 +100,15 @@ plt.ylabel('Petal_Length_cm')
 plt.show() 
 
 
+plt.scatter(seplen, pewidt , marker='8', s=50,  color = "Blue", edgecolor="black")
+plt.title("Sepal Length Vs Petal_Width_cm")
+plt.xlabel('Petal_Length_cm') 
+plt.ylabel('Petal_Width_cm') 
+
+plt.show() 
+
+
+
 
 plt.scatter(pewidt, peleng , marker='x', s=40,  color = "orange", edgecolor="black")
 plt.title("Sepal_Width Vs Petal_Length_cm")
@@ -118,3 +127,4 @@ plt.ylabel('Petal_Width_cm')
 plt.show() 
 
 '''
+
