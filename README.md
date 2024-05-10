@@ -4,11 +4,11 @@
 
 ***
 
-This notebook contains my analysis of famous palmer penguin’s dataset. This repository focuses on the body mass of the penguin as the main parameter.
+
 
 ![Iris flowers dataset](https://blog.floweradvisor.com/wp-content/uploads/2021/11/iris-g2acfad160_640.jpg.webp)
 
-Data is available on [GITHUB](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
+
 
 ### introduction
 
@@ -16,17 +16,19 @@ Iris is a genus of flowers with more than 300 species.  The iris data set was ma
 
 SETOSA
 
-![Setosa flower](https://en.wikipedia.org/wiki/Iris_setosa#/media/File:Irissetosa1.jpg)
+![Setosa_flower](https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg)
 
 VIRGINICA
 
-![Virginica flower](https://en.wikipedia.org/wiki/Iris_virginica#/media/File:Iris_virginica_2.jpg)
+![Virginica_flower](https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg)
 
 VERSICOLOR
 
-![Versicolor flower](https://en.wikipedia.org/wiki/Iris_versicolor#/media/File:Blue_Flag,_Ottawa.jpg)
+![Versicolor_flower](https://en.wikipedia.org/wiki/Iris_versicolor#/media/File:Blue_Flag,_Ottawa.jpg)
 
-This small section was created using references number 1 and 2
+Data is available on [GITHUB](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
+
+This section was created using references number 1 and 2
 
 
 
