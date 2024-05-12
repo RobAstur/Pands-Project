@@ -10,7 +10,7 @@ import numpy as np
 
 iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
-
+iris_dataset.corr()
 
 '''
 iris_dataset.info()
@@ -40,6 +40,7 @@ print(iris_dataset.dtypes)
 
 seplen = iris_dataset["sepal_length"]
 seplen = seplen.to_numpy()
+
 
 '''
 plt.hist(seplen, color="darkgreen",edgecolor="black",  linestyle='--', alpha=0.5)
