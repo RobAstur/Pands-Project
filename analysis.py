@@ -1,4 +1,4 @@
-
+#data Frame
 import pandas as pd
 #Plotting
 import matplotlib.pyplot as plt
@@ -10,16 +10,10 @@ import numpy as np
 
 iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
-iris_dataset.corr()
-
-'''
-iris_dataset.info()
-# Summary of the data set
-
+#Adding the print to see apicture of the dataset
 print(iris_dataset)
 
-
-# Below function will create/open a text file called summary each time it is run. It will contain a short summary of all the variables. More info in the jupyter notebook. Seccion 1
+# Section 1. More info under this topic on the jupyter notebook called Iris_project. Below function will create/open a text file called summary each time it is run. It will contain a short summary of all the variables. 
 
 
 filename = "summary.txt"
@@ -29,14 +23,10 @@ with open(filename, 'w') as f:
     f.write(df_string)
 
 
-# We use this function to get information about the data types
+# Summary of the data in the dataset
+iris_dataset.info()
 
-print(iris_dataset.dtypes)
-
-'''
-
-
-# Create arrays to prepare data for plotting 
+# Section 2. Create arrays to prepare data for plotting 
 
 seplen = iris_dataset["sepal_length"]
 seplen = seplen.to_numpy()
