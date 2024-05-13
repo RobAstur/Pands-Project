@@ -45,7 +45,7 @@ The histograms of each of the features shows different frecuencies for each of t
 
 Above data is confirmed by **reference 4**
 
-According to **reference 9** and using the information provided by the hostogram, using the feature Petal length we can separate setosa flowers from the group. It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined`. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 10** 
+According to **reference 9** **reference14** and using the information provided by the hostogram, using the feature Petal length we can separate setosa flowers from the group. It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined`. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 10** 
 
 Below immage from **reference 9** provide a nice visualization of how the different flowers interect with each other in the histograms
 
@@ -61,17 +61,32 @@ Website atlassian **reference 6** defined scatter plot  as "A scatter plot (aka 
 The scatter charts provide very interesting information that can be see in below key points.
 
 * Petals Legnth and Petal Width
-    * According to **reference 7** there is some corraltion between petal length and width. **reference 12** suggest that petal length and with is the key feuture to identify the flowers.
+    * According to **reference 7** there is corralation between petal length and width. **reference 12** suggest that petal length and width is the key feuture to identify the flowers.
     * In the charts we can see that setosa flowers Petal length and petal width are the smaller and the virginica are the largest. Versicolor has average values. 
-    * We can see that setosa flowers can be easily separated and identified by petals. **Reference 10**
-    * Although there are some points overlaping **reference 3** suggested that all the flowers can be identified by the petal sizes.
+    * We can see that setosa flowers can be easily separated and identified by petals. **Reference 10** **reference 12**
+    * **reference 14** suggest that petal width can be used alone to separate setosa flowers from rest of the subjects.
+    * Although there are some points overlaping **reference 3** suggests that all the flowers can be identified by the petal sizes.
 
 * Sepal Length and Sepal Width
     * Setosa flowers have the higuest sepal width and it is combined with a low sepal length. Versicolor flowers has average values and Virginica are the oposite of setosa with low sepal with and high sepal length.
     * Setosa flowers can also be separated from the rest of the flowers in the dataset using Sepal measurements. **reference 11**
-    * Although virginica is larger than Versicolor, they have points overlapping. **Reference 10**
+    * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using Sepal them using Sepal Length and width alone. **Reference 13**
+    * According to **Reference 7** Sepal with and sepal lenght are slightly correlated.
+    *
 
-### Can we use sepal lenght and width to identify the iris flowers?
+###  Other type of charts
+
+One of the most populat chats to analyse the iris dataset is the pair charts. it is a combination of the charts that I created individually. It includes different colors which is great in terms of visualization.
+
+
+![PAIR_CHART](https://miro.medium.com/v2/resize:fit:720/format:webp/1*EC0wwBEYyc6nHbKfkdvn9g.png) **Reference 9**
+
+
+The box chart is offers good visualization of the distribution. This chart confirms the points previosly highlighted. Sepal length can be used to separate setosa flowers from the rest of the subjects. However, there are overlaping between versicolor and virginica. in terms of the sepal Width the plot confirm the same data. There are some differences but are ot veyr pronounce **Reference 14**
+
+
+![SEPAL_L_BOX](https://miro.medium.com/v2/resize:fit:640/format:webp/1*bGDLQW129SZqhiE_wy8h4w.png) **Reference 14**
+![Sepal_W_bBOX](https://miro.medium.com/v2/resize:fit:640/format:webp/1*qDBKrz-BPYvymnyQe1dOhw.png) **Reference 14**
 
 
 
@@ -90,3 +105,5 @@ The scatter charts provide very interesting information that can be see in below
 * 10 [GITHUB_ABHI](https://github.com/abhikumar22/Exploratory-Data-Analysis-on-IRIS-Dataset/blob/master/EDA_Flower.ipynb)
 * 11 [SCIKIT](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html#:~:text=Scatter%20Plot%20of%20the%20Iris%20dataset,-import%20matplotlib.pyplot&text=You%20can%20already%20see%20a,the%20Versicolor%20and%20Virginica%20types.)
 * 12 [MEDIUM_VID](https://medium.com/analytics-vidhya/exploratory-data-analysis-iris-dataset-32d09a52f322)
+* 13 [WARWICK](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_plots/)
+* 14 [MEDIUM_LEVELUP](https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d)
