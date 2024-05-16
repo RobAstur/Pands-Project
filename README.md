@@ -4,7 +4,7 @@
 
 ## introduction
 
-Iris is a genus of flowers with more than 300 species.  The iris data set was made famous by British statistician and biologist Ronald Fisher. It contains 3 different types of iris flowers (Iris setosa, Iris virginica and Iris versicolor). It is one of the most popular datasets for data analytics. The aim of this project is to provide simple analysis with extensive research.
+Iris is a genus of flowers with more than 300 species.  The iris data set was made famous by British statistician and biologist Ronald Fisher. It contains 3 different types of iris flowers (Iris setosa, Iris virginica and Iris versicolor). It is one of the most popular datasets for data analytics. The aim of this project is to provide simple analysis with extensive research. 
 
 SETOSA
 
@@ -29,7 +29,12 @@ This section was created using **references 1** and **reference 2**
 
 This research will use a double approach. On one side I will create my own data and charts. Based on that information I will compare results with different sources of information. Ont the other hand I will research fofr further and insightful information about the data set.
 
+First thing to highlight is that According to **Reference 15**  the 3 species of iris flowers are not directly comparable because of their different sources. However it is still a good set of info for data analytics. Setosa flowers were found in Alaska, Versicolor in northeastern Ohio and Virginica outhward along the Atlantic Coast. **Reference 15**
+
+![Where_the_flowers_are](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jrssig/18/6/10.1111_1740-9713.01589/1/m_sign_18_6_26_fig-2.jpeg?Expires=1718732637&Signature=PhfRbUxedr7JCJwotC34t5gVX1RUNYEvgnEwdMwl-ecTZ0haSxwV77nkcDxmWQPMEcBasdfit4veQhtsqtMM9iRzko7Bi8C3ym3I1T~DIZvyu2W196Br10aLeWhFelxSX7rsiRT20SHiRCzIOLT53b9CylMIkN7tmY92VzTobPHs1GDViQ28K-N4DcBiUBcq7YH4TPtR35fVzvBtEV2WR6aD0Bnkhvf4acShucMPyPEuIf6oj2yIYcTHc1pwzWB5~iIrarOOnEmdEd7EvXLHolnFcPW4-tCSjrojC6lz9Y6YbSk16YQFcZ9ntx3L0DWHniL0GzoA2OT~bBLdJqwIFw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
 ![Versicolor_flower](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
+
 
 ### Information from Histograms 
 
@@ -45,11 +50,12 @@ The histograms of each of the features shows different frecuencies for each of t
 
 Above data is confirmed by **reference 4**
 
-According to **reference 9** **reference14** and using the information provided by the hostogram, using the feature Petal length we can separate setosa flowers from the group. It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined`. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 10** 
+According to **reference 9** and **reference14** and  the information provided by the histograms, by using the feature Petal length we can separate setosa flowers from the group. If a flower has a petal lenght of 1.5 cm we can conclude it is a setosa flower but if it has a 5 cm petal lenght we couldn't say it is versicolor or virginica **Reference 17**. 
 
-Below immage from **reference 9** provide a nice visualization of how the different flowers interect with each other in the histograms
+ It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined`. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 10** 
 
-![Reference_9_histograms](https://miro.medium.com/v2/resize:fit:640/format:webp/1*xkh0rvkNAAo59x9Lgcvq7A.jpeg)
+based **Reference 17** confirmed that if we see a iris flower with 1.5 cm petal length we can directly say it is a setosa flower. However if it is 5 cm 
+
 
 
 ### Information from Scatterplot
@@ -61,18 +67,17 @@ Website atlassian **reference 6** defined scatter plot  as "A scatter plot (aka 
 The scatter charts provide very interesting information that can be see in below key points.
 
 * Petals Legnth and Petal Width
-    * According to **reference 7** there is corralation between petal length and width. **reference 12** suggest that petal length and width is the key feuture to identify the flowers.
+    * According to **reference 6** and **reference 7** there is corralation between petal length and width, petals are getting bigger substantially when both dimensions increase. **reference 12** suggest that petal length  is the key feuture to identify the flowers.
     * In the charts we can see that setosa flowers Petal length and petal width are the smaller and the virginica are the largest. Versicolor has average values. 
-    * We can see that setosa flowers can be easily separated and identified by petals. **Reference 10** **reference 12**
+    * We can see that setosa flowers can be easily separated and identified by petals. **Reference 10** **reference 12** **reference 15**
     * **reference 14** suggest that petal width can be used alone to separate setosa flowers from rest of the subjects.
     * Although there are some points overlaping **reference 3** suggests that all the flowers can be identified by the petal sizes.
 
 * Sepal Length and Sepal Width
     * Setosa flowers have the higuest sepal width and it is combined with a low sepal length. Versicolor flowers has average values and Virginica are the oposite of setosa with low sepal with and high sepal length.
-    * Setosa flowers can also be separated from the rest of the flowers in the dataset using Sepal measurements. **reference 11**
-    * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using Sepal them using Sepal Length and width alone. **Reference 13**
-    * According to **Reference 7** Sepal with and sepal lenght are slightly correlated.
-    *
+    * Setosa flowers can also be separated from the rest of the flowers in the dataset using Sepal measurements. **reference 11** **reference 15**
+    * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using  Sepal Length and width alone. **Reference 13**. **Reference 16** argue that it is not possible to separate flowers using only sepal length.
+    * According to **Reference 16** there is weak correlation bewteen sepal lenght and sepal width
 
 ###  Other type of charts
 
@@ -107,3 +112,6 @@ The box chart is offers good visualization of the distribution. This chart confi
 * 12 [MEDIUM_VID](https://medium.com/analytics-vidhya/exploratory-data-analysis-iris-dataset-32d09a52f322)
 * 13 [WARWICK](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_plots/)
 * 14 [MEDIUM_LEVELUP](https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d)
+* 15 [ACADEMIC](https://academic.oup.com/jrssig/article/18/6/26/7038520?login=false)
+* 16 [GITRABIUL](https://gist.github.com/rabiulcste/33d985ab55820353181f9727a9496a81)
+* 17 [SCIENCE_DIRECT](https://www.sciencedirect.com/topics/computer-science/iris-virginica)
