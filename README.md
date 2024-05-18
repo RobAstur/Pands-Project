@@ -2,7 +2,7 @@
 
 ***
 
-## introduction
+## Introduction
 
 Iris is a genus of flowers with more than 300 species.  The iris data set was made famous by British statistician and biologist Ronald Fisher. It contains 3 different types of iris flowers (Iris setosa, Iris virginica and Iris versicolor). It is one of the most popular datasets for data analytics. The aim of this project is to provide simple analysis with extensive research. 
 
@@ -27,7 +27,7 @@ This section was created using **references 1** and **reference 2**
 
 ## Research
 
-This research will use a double approach. On one side I will create my own data and charts. Based on that information I will compare results with different sources of information. Ont the other hand I will research fofr further and insightful information about the data set.
+This research will use a double approach. On one side I will create my own data and charts. Based on that information I will compare results with different sources of information. Ont the other hand I will research for further and insightful information about the data set.
 
 ![Versicolor_flower](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
 
@@ -37,8 +37,8 @@ First thing to highlight is that According to **Reference 15**  the 3 species of
 
 Before starting the analysis it is important to see the composition of teh data set. We can see that the number of subjects per specie is the same 50 each.
 
-
-
+![Bar_chart_number of species](https://github.com/RobAstur/Pands-Project/blob/main/Number_of_flowers_in_dataset_per_species.png)
+![Pie_chart](https://github.com/RobAstur/Pands-Project/blob/main/Pie_charts_number%20of%20species.png)
 
 
 ### Information from Histograms 
