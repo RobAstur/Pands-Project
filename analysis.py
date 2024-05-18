@@ -11,6 +11,7 @@ import numpy as np
 
 iris_dataset = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
+'''
 #Adding the print to see a picture of the dataset
 print(iris_dataset)
 
@@ -119,3 +120,66 @@ plt.xlabel('Petal_length_cm')
 plt.ylabel('Petal_Width_cm') 
 
 plt.show() 
+
+# Aditonal analysis
+
+number_of_flowers =iris_dataset["species"].value_counts().plot.bar(color="darkgreen",edgecolor="limegreen")
+number_of_flowers.set_facecolor("snow")
+plt.title("Number of flowers per Specie")
+
+plt.show()
+
+
+
+iris_dataset["species"].value_counts().plot.pie(autopct='%1.1f%%')
+plt.legend(loc="upper left")
+plt.title("Percentage of flowers per specie")
+
+plt.show()
+
+
+flowers_grouped = iris_dataset[['species', 'petal_length']].groupby('species').mean().reset_index()
+
+plt.bar(flowers_grouped["species"], flowers_grouped["petal_length"], color="powderblue",edgecolor="black")
+plt.title('Average petal lenght by species')
+
+# Adding the scatter plot shows us the range of Petal Length of each of the species. 
+plt.scatter(iris_dataset ["species"], iris_dataset[ "petal_length"], color = "seagreen")
+
+plt.show()
+
+flowers_grouped = iris_dataset[['species', 'petal_width']].groupby('species').mean().reset_index()
+
+plt.bar(flowers_grouped["species"], flowers_grouped["petal_width"], color="powderblue",edgecolor="black")
+plt.title('Average petal width by species')
+
+# Adding the scatter plot shows us the range of petal width of each of the species. 
+plt.scatter(iris_dataset ["species"], iris_dataset[ "petal_width"], color = "seagreen")
+
+plt.show()
+
+
+
+flowers_grouped = iris_dataset[['species', 'sepal_length']].groupby('species').mean().reset_index()
+
+plt.bar(flowers_grouped["species"], flowers_grouped["sepal_length"], color="powderblue",edgecolor="black")
+plt.title('Average petal Length by species')
+
+# Adding the scatter plot shows us the range of sepal length of each of the species. 
+plt.scatter(iris_dataset ["species"], iris_dataset[ "sepal_length"], color = "seagreen")
+
+plt.show()
+
+
+
+flowers_grouped = iris_dataset[['species', 'sepal_width']].groupby('species').mean().reset_index()
+
+plt.bar(flowers_grouped["species"], flowers_grouped["sepal_width"], color="powderblue",edgecolor="black")
+plt.title('Average sepal width by species')
+
+# Adding the scatter plot shows us the range of sepal width of each of the species. 
+plt.scatter(iris_dataset ["species"], iris_dataset[ "sepal_width"], color = "seagreen")
+
+plt.show()
+
+'''

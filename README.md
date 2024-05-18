@@ -76,7 +76,13 @@ The scatter charts provide very interesting information that can be see in below
     * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using  Sepal Length and width alone. **Reference 13**. **Reference 16** argue that it is not possible to separate flowers using only sepal length.
     * According to **Reference 16** there is weak correlation bewteen sepal lenght and sepal width
 
+### Bar charts, pie chart and combinations
+
+
+
 ###  Other type of charts
+
+
 
 This section is created using images form references. They are great for visualization and it provide clear views and analysis of teh dataset.
 
