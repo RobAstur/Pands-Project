@@ -78,9 +78,9 @@ The scatter charts provide very interesting information that can be see in below
 
 ### Bar charts, pie chart and combinations
 
+![TEST](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
 
-
-###  Other type of charts
+###  Other type of charts using referenced work 
 
 
 
