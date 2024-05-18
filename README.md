@@ -35,6 +35,11 @@ First thing to highlight is that According to **Reference 15**  the 3 species of
 
 ![Where_the_flowers_are](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jrssig/18/6/10.1111_1740-9713.01589/1/m_sign_18_6_26_fig-2.jpeg?Expires=1718732637&Signature=PhfRbUxedr7JCJwotC34t5gVX1RUNYEvgnEwdMwl-ecTZ0haSxwV77nkcDxmWQPMEcBasdfit4veQhtsqtMM9iRzko7Bi8C3ym3I1T~DIZvyu2W196Br10aLeWhFelxSX7rsiRT20SHiRCzIOLT53b9CylMIkN7tmY92VzTobPHs1GDViQ28K-N4DcBiUBcq7YH4TPtR35fVzvBtEV2WR6aD0Bnkhvf4acShucMPyPEuIf6oj2yIYcTHc1pwzWB5~iIrarOOnEmdEd7EvXLHolnFcPW4-tCSjrojC6lz9Y6YbSk16YQFcZ9ntx3L0DWHniL0GzoA2OT~bBLdJqwIFw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
+Before starting the analysis it is important to see the composition of teh data set. We can see that the number of subjects per specie is the same 50 each.
+
+
+
+
 
 ### Information from Histograms 
 
@@ -76,9 +81,25 @@ The scatter charts provide very interesting information that can be see in below
     * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using  Sepal Length and width alone. **Reference 13**. **Reference 16** argue that it is not possible to separate flowers using only sepal length.
     * According to **Reference 16** there is weak correlation bewteen sepal lenght and sepal width
 
-### Bar charts, pie chart and combinations
+### Combination of bar charts and scatter plot
 
-![TEST](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
+This section creates shows 4 different bar charts combined with scatter plots. It combine one of the principel features (petal and sepal sizes) and species. Bar chart calculates the mean and scatter plot add the range of sizes. It provides a very interesting information for analysis. It hlps to confirm and understand the information provided by the previous section
+
+* Petal Length by species - As we have learnt the setosa flowers has smaller petal length and can be easily separated. However in this chart if we analized the scatter plot range it shows that there is a clear overlaping between values 5.5 to 7.0 cms. 
+
+![Petal_Length](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
+
+* Petal width by species - We have the same situation. Setosa flowers can be completely separated from Versicolor and Virginica. For this 2 values the scatter plot range shows clear overlaping between values 1.5 cm to almost 2 cm.
+
+![Petal_Width](https://github.com/RobAstur/Pands-Project/blob/main/Average%20petal%20width%20by%20species%20%2B%20scatterplot.png)
+
+* Sepal Length by species - in this case there are overlaping between the 3 species. We could potentially separate small small values of setosa flower and highest values of Virginica. Rest of the values are overlaping and it would make impossible to separate the different types of flower
+
+![Sepal_lenght](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
+
+*Sepal width by species - In this case we could identify the highest values of the setosa flowers.
+
+![Sepal_Width](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Width%20by%20species%20%2B%20scatter%20plot.png)
 
 ###  Other type of charts using referenced work 
 
