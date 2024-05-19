@@ -27,7 +27,7 @@ This section was created using **references 1** and **reference 2**
 
 ## Research
 
-This research will use a double approach. On one side I will create my own data and charts. Based on that information I will compare results with different sources of information. Ont the other hand I will research for further and insightful information about the data set.
+For this research a different set of histograms, scatter plots, bar charts were created. The aim is to extract the key insights of the data set and get a better understanding of the iris flowers. Moreover, external sources will be used to validate and confirm the key findings.
 
 ![Versicolor_flower](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
 
@@ -35,7 +35,7 @@ First thing to highlight is that According to **Reference 15**  the 3 species of
 
 ![Where_the_flowers_are](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jrssig/18/6/10.1111_1740-9713.01589/1/m_sign_18_6_26_fig-2.jpeg?Expires=1718732637&Signature=PhfRbUxedr7JCJwotC34t5gVX1RUNYEvgnEwdMwl-ecTZ0haSxwV77nkcDxmWQPMEcBasdfit4veQhtsqtMM9iRzko7Bi8C3ym3I1T~DIZvyu2W196Br10aLeWhFelxSX7rsiRT20SHiRCzIOLT53b9CylMIkN7tmY92VzTobPHs1GDViQ28K-N4DcBiUBcq7YH4TPtR35fVzvBtEV2WR6aD0Bnkhvf4acShucMPyPEuIf6oj2yIYcTHc1pwzWB5~iIrarOOnEmdEd7EvXLHolnFcPW4-tCSjrojC6lz9Y6YbSk16YQFcZ9ntx3L0DWHniL0GzoA2OT~bBLdJqwIFw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
-Before starting the analysis it is important to see the composition of teh data set. We can see that the number of subjects per specie is the same 50 each.
+Before starting the analysis it is important to see the composition of the data set. We can see that the number of subjects per specie is the same with 50 flowers each.
 
 ![Bar_chart_number of species](https://github.com/RobAstur/Pands-Project/blob/main/Number_of_flowers_in_dataset_per_species.png)
 ![Pie_chart](https://github.com/RobAstur/Pands-Project/blob/main/Pie_charts_number%20of%20species.png)
@@ -43,10 +43,10 @@ Before starting the analysis it is important to see the composition of teh data 
 
 ### Information from Histograms 
 
-To better understand the anylysis it is important to open the different histograms while reading the analysis.
+To better understand the analysis it is important to open the different histograms while reading the analysis.
 Website atlassian **Reference 5**, defined histogram as " chart that plots the distribution of a numeric variable’s values as a series of bars. Each bar typically covers a range of numeric values called a bin or class; a bar’s height indicates the frequency of data points with a value within the corresponding bin."
 
-The histograms of each of the features shows different frecuencies for each of the features. The key points are listed below.
+The histograms of each of the flowers features shows different frecuencies for each of them. The key points are listed below.
 
 * The petal lenght feature have the highest frecuency  between 1.0 and 2.0 cms. Aproximate 50 subjects falls in this category.
 * The petal width feature shows the highest frequency in between 0.0 and 0.5 cms. Around 40 subjects falls in this category.
@@ -55,9 +55,9 @@ The histograms of each of the features shows different frecuencies for each of t
 
 Above data is confirmed by **reference 4**
 
-According to **reference 9** and **reference14** and  the information provided by the histograms, by using the feature Petal length we can separate setosa flowers from the group. If a flower has a petal lenght of 1.5 cm we can conclude it is a setosa flower but if it has a 5 cm petal lenght we couldn't say it is versicolor or virginica **Reference 17**. 
+According to **reference 9** and **reference14** and the information provided by the histograms, by using the feature Petal length we can separate setosa flowers from the group. If a flower has a petal lenght of 1.5 cm we can conclude it is a setosa flower but if it has a 5 cm petal lenght we couldn't say it is versicolor or virginica **Reference 17**. 
 
-It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined`. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 9** 
+It is not possible to do the same with sepal length and sepal width, as separation is not so clear. Moreover, petal width is not well defined. Thus, we can conclude that petal length is the ***key feature*** to distinguise setosa flowers from the rest of the group.**Reference 9** 
 
 
 ### Information from Scatterplot
@@ -69,27 +69,26 @@ Website atlassian **reference 6** defined scatter plot  as "A scatter plot (aka 
 The scatter charts provide very interesting information that can be see in below key points.
 
 * Petals Length and Petal Width
-    * According to **reference 6** **reference 14** and **reference 7** there is correlation between petal length and width, petals are getting bigger substantially when both dimensions increase. **reference 12** suggest that petal length  is the key feture to identify the flowers.
+    * According to **reference 6** **reference 14** and **reference 7** there is correlation between petal length and width, flowers with longer petals tend to have wider widths. **reference 12** suggest that petal length  is the key feture to identify the flowers.
     * In the charts we can see that setosa flowers Petal length and petal width are the smaller and the virginica are the largest. Versicolor has average values. 
     * We can see that setosa flowers can be easily separated and identified by petals. **Reference 10** **reference 12** **reference 15**
-    * **reference 14** suggest that petal width can be used alone to separate setosa flowers from rest of the subjects.
-    * Although there are some points overlapping **reference 3** suggests that all the flowers can be identified by the petal sizes.
+    * **Reference 14** suggest that petal width can be used alone to separate setosa flowers from rest of the subjects.
 
 * Sepal Length and Sepal Width
     * Setosa flowers have the highest sepal width and it is combined with a low sepal length. Versicolor flowers has average values and Virginica are the opposite of setosa with low sepal with and high sepal length.
-    * Setosa flowers can also be separated from the rest of the flowers in the dataset using Sepal measurements. **reference 11** **reference 15**
+    * Setosa flowers can also be separated from the rest of the flowers in the dataset using sepal measurements. **reference 11** **reference 15**
     * Although virginica is larger than Versicolor, they have many points overlapping **Reference 10**. Thus, it would be difficult to identify flowers using  Sepal Length and width alone. **Reference 13**. **Reference 16** argue that it is not possible to separate flowers using only sepal length.
-    * According to **Reference 16** there is weak correlation bewteen sepal lenght and sepal width
+    * According to **Reference 16** there is weak correlation bewteen sepal lenght and sepal width. **Reference 14** see a moderate negative correlation between sepal length and sepal width. This statement imply that flowers that havee longer sepals tend to have narrower widths.
 
 ### Combination of bar charts and scatter plot
 
-This section creates shows 4 different bar charts combined with scatter plots. It combine one of the principel features (petal and sepal sizes) and species. Bar chart calculates the mean and scatter plot add the range of sizes. It provides a very interesting information for analysis. It hlps to confirm and understand the information provided by the previous section
+This section shows 4 different bar charts combined with scatter plots. It combine one of the principel features (petal and sepal sizes) and species. Bar chart calculates the mean and scatter plot add the range of sizes. It provides a very interesting information for analysis. It helps to confirm and understand the information provided by the previous section
 
-* Petal Length by species - As we have learnt the setosa flowers has smaller petal length and can be easily separated. However in this chart if we analized the scatter plot range it shows that there is a clear overlaping between values 5.5 to 7.0 cms. 
+* Petal Length by species - As we have learnt the setosa flowers has smaller petal length and can be easily separated. However in this chart if we analized the scatter plot range we can see an overlaping between versicolor and virginica in values around 5.5 to 7.0 cms range.
 
 ![Petal_Length](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
 
-* Petal width by species - We have the same situation. Setosa flowers can be completely separated from Versicolor and Virginica. For this 2 values the scatter plot range shows clear overlaping between values 1.5 cm to almost 2 cm.
+* Petal width by species - We have the same situation. Setosa flowers can be completely separated from Versicolor and Virginica. For this 2 values the scatter plot range shows clear overlaping between values 1.5 cm to almost 2 cm for versicolor and virginica.
 
 ![Petal_Width](https://github.com/RobAstur/Pands-Project/blob/main/Average%20petal%20width%20by%20species%20%2B%20scatterplot.png)
 
@@ -97,7 +96,7 @@ This section creates shows 4 different bar charts combined with scatter plots. I
 
 ![Sepal_lenght](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Length%20by%20species%20%2B%20scatter%20plot.png)
 
-*Sepal width by species - In this case we could identify the highest values of the setosa flowers.
+*  Sepal width by species - badsed on the sepal width we can see that most the range of values overlapse for the the 3 flowers. Only setosa flowers with sepal width over 4 cms could be easily identify.
 
 ![Sepal_Width](https://github.com/RobAstur/Pands-Project/blob/main/Average%20Sepal%20Width%20by%20species%20%2B%20scatter%20plot.png)
 
