@@ -33,7 +33,7 @@ iris_dataset.info()
 seplen = iris_dataset["sepal_length"]
 seplen = seplen.to_numpy()
 
-
+#Section 3
 # Creating histograms
 plt.hist(seplen, color="darkgreen",edgecolor="black",  linestyle='--', alpha=0.5)
 plt.title("Sepal Length in cm")
