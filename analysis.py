@@ -64,10 +64,8 @@ plt.ylabel('Count')
 plt.show() 
 
 
-
 pewidt = iris_dataset["petal_width"]
 pewidt = pewidt.to_numpy()
-
 
 plt.hist(pewidt, color="plum",edgecolor="magenta",  linestyle='--', alpha=0.5)
 plt.title("Petal Width in cm")
@@ -121,8 +119,14 @@ plt.ylabel('Petal_Width_cm')
 plt.show() 
 
 
+plt.scatter(sewidt, pewidt, marker='o', s=40,  color = "blue", edgecolor="black")
+plt.title("Sepal Width Vs Petal_width_cm")
+plt.xlabel('Sepal_Width_cm') 
+plt.ylabel('Petal_Width_cm') 
 
-# Aditonal analysis - 
+plt.show() 
+
+# Aditonal analysis 
 
 number_of_flowers =iris_dataset["species"].value_counts().plot.bar(color="darkgreen",edgecolor="limegreen")
 number_of_flowers.set_facecolor("snow")
