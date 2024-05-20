@@ -37,7 +37,7 @@ First thing to highlight is that According to **Reference 15**  the 3 species of
 
 Before starting the analysis it is important to see the composition of the data set. We can see that the number of subjects per specie is the same with 50 flowers each.
 
-![Bar_chart_number of species](https://github.com/RobAstur/Pands-Project/blob/main/Number_of_flowers_in_dataset_per_species.png)
+![Bar_chart_number of species](https://github.com/RobAstur/Pands-Project/blob/main/Bar%20chart%20Number_of_flowers_in_dataset_per_species.png)
 ![Pie_chart](https://github.com/RobAstur/Pands-Project/blob/main/Pie_charts_number%20of%20species.png)
 
 
